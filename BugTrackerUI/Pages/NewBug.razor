@@ -3,7 +3,7 @@
 <EditForm Model="AddBug">
     <InputText @bind-Value="@AddBug.Title">Enter Title</InputText>
     <InputText @bind-Value="@AddBug.Description">Enter Description</InputText>
-    <InputText @bind-Value="@AddBug.Priority">Enter Priority</InputText>
+    <InputNumber @bind-Value="@AddBug.Priority">Enter Priority</InputNumber>
     <button type="submit">Add Bug</button>
 </EditForm>
 
